@@ -1,8 +1,8 @@
-# ADOBE-GENSOLVE
+## ADOBE-GENSOLVE
 Curvetopia: Regularizing and Beautifying 2D Curves
 Welcome to Curvetopia! This project focuses on identifying, regularizing, and beautifying 2D curves, with an emphasis on transforming irregular hand-drawn shapes into their idealized forms.
 
-TABLE OF CONTENTS:
+## TABLE OF CONTENTS:
 Project Overview
 Features
 Installation
@@ -11,20 +11,20 @@ Technical Details
 Future Work
 Contributing
 
-PROJECT OVERVIEW:
+## PROJECT OVERVIEW:
 This project is designed to regularize various shapes such as lines, circles, ellipses, rectangles, polygons, and star shapes. The project processes input data from CSV files, identifies the shape type, regularizes it, and then visualizes the output as both PNG images and SVG files.
 
-FEATURES:
+## FEATURES:
 Shape Identification: Detects shapes including circles, ellipses, rectangles, polygons, and stars.
 Regularization: Smooths and regularizes shapes to ensure symmetry and precision.
 Symmetry Detection: Checks for symmetry in the shapes and adjusts accordingly.
 Curve Completion: Completes incomplete curves to form closed shapes.
 Visualization: Outputs regularized shapes as PNG images and SVG files.
 
-INSTALLATION:
+## INSTALLATION:
 To set up the project locally, follow these steps:
 1.Clone the repository:
-  git clone https://github.com/yourusername/ADOBE-GENSOLVE.git
+  git clone https://github.com/KavyaMitruka/ADOBE-GENSOLVE.git
   cd ADOBE-GENSOLVE
 2.Install required dependencies:
   pip install -r requirements.txt
@@ -42,8 +42,8 @@ To set up the project locally, follow these steps:
   Command Line Example:
   python curvetopia.py --input data1.csv --output output.svg
 
-TECHNICAL DETAILS:
-1.Isolated_Regularization.ipynb
+## TECHNICAL DETAILS:
+## 1.Isolated_Regularization.ipynb
 
   1.Importing Necessary Libraries
      import numpy as np: Imports the NumPy library, which provides support for arrays and matrices, along with a collection of mathematical functions to operate on these         data structures.
@@ -93,10 +93,10 @@ TECHNICAL DETAILS:
   11. Shape Identification
     def identify_shape(approx):: Identifies the shape type (e.g., triangle, rectangle) based on the approximate vertices after applying simplification or regularization. 
 
-Summary:
+# Summary:
 The code is a comprehensive toolset for processing, regularizing, and analyzing 2D shapes represented by sets of points. It handles various geometric shapes, supports shape classification, symmetry detection, and curve completion, and visualizes the results using Matplotlib. This makes it suitable for applications like image processing, pattern recognition, and computer vision, where accurate shape representation and regularization are essential.
 
-2.Fragmented_Regularization.ipynb
+## 2. Fragmented_Regularization.ipynb
 
   1. Importing Necessary Libraries
     import numpy as np: Imports the NumPy library, which provides support for arrays and matrices, along with a collection of mathematical functions to operate on these         data structures.
@@ -156,10 +156,10 @@ The code is a comprehensive toolset for processing, regularizing, and analyzing 
     Regularizing Shapes: Regularizes the shapes into standard geometric forms.
     Plotting and Exporting: Visualizes the regularized paths and exports the results as SVG and PNG files.
 
-Summary:
+# Summary:
 This code is a comprehensive toolset for processing, regularizing, and analyzing 2D composite shapes represented by sets of points. It handles various geometric shapes, including straight lines, circles, ellipses, rectangles, polygons, and star shapes. The code supports shape classification, symmetry detection, and curve completion, and it visualizes the results using Matplotlib. Additionally, it generates output in both SVG and PNG formats, making it suitable for applications like image processing, pattern recognition, and computer vision, where accurate shape representation and regularization are essential.
   
-FUTURE WORK:
+## FUTURE WORK:
 Expand Shape Support: Add more complex shapes such as curved polygons and irregular stars.
 Enhance Accuracy: Improve regularization algorithms for better symmetry and precision.
 
